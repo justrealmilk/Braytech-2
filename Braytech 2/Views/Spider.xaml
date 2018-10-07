@@ -10,7 +10,6 @@
 
     <Grid>
         <TextBlock Text="&#xe99f;" FontSize="500" FontFamily="Assets/destiny.ttf#destiny" Margin="0,37,-40,0" HorizontalAlignment="Right" VerticalAlignment="Top" Opacity="0.05"/>
-        <Image Source="/Assets/spider.png" Margin="380,0,0,0" Stretch="UniformToFill" HorizontalAlignment="Left" VerticalAlignment="Center" />
         <TextBlock Text="The Spider" FontSize="24" Margin="40,40,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
         <TextBlock Text="Material Exchange" FontSize="18" Margin="40,80,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
         <GridView ItemsSource="{x:Bind ItemsList, Mode=OneWay}" SelectionMode="None" IsItemClickEnabled="False" IsSwipeEnabled="False" CanDragItems="False" HorizontalAlignment="Left" Margin="40,130,40,0" VerticalAlignment="Top" Width="300">

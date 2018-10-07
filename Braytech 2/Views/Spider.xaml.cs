@@ -84,9 +84,20 @@ namespace Braytech_2.Views
             VendorData request = JsonConvert.DeserializeObject<VendorData>(json);
 
             //help plz
+            int vendorIndex = 0;
+
+            for (int i = 0; i < request.response.data.Length; i++)
+            {
+                if (request.response.data[i].vendor.vendorHash == 863940356)
+                {
+                    vendorIndex = i;
+                }
+            }
+
+            //help plz
             var materialIndexes = new int[2];
 
-            foreach (var category in request.response.data[0].categories)
+            foreach (var category in request.response.data[vendorIndex].categories)
             {
                 if (category.displayCategoryIndex == 1)
                 {
@@ -94,7 +105,7 @@ namespace Braytech_2.Views
                 }
             }
 
-            foreach (var item in request.response.data[0].sales)
+            foreach (var item in request.response.data[vendorIndex].sales)
             {
 
                 if (materialIndexes.Contains(item.vendorItemIndex))

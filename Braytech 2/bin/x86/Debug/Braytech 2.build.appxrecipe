@@ -526,8 +526,8 @@
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Assets\destiny.ttf">
       <PackagePath>Assets\destiny.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Assets\spider.png">
-      <PackagePath>Assets\spider.png</PackagePath>
+    <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -555,9 +555,6 @@
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Braytech 2.xr.xml">
       <PackagePath>Braytech 2.xr.xml</PackagePath>

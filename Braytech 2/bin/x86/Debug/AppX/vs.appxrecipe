@@ -31,13 +31,13 @@
     <AppXManifest Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-07T19:41:12.314</Modified>
+      <Modified>2018-10-07T20:31:26.912</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Braytech 2.exe">
       <PackagePath>entrypoint\Braytech 2.exe</PackagePath>
-      <Modified>2018-10-07T19:41:11.777</Modified>
+      <Modified>2018-10-07T20:31:26.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chapm\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -703,9 +703,9 @@
       <PackagePath>Assets\destiny.ttf</PackagePath>
       <Modified>2018-09-19T10:01:50.747</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Assets\spider.png">
-      <PackagePath>Assets\spider.png</PackagePath>
-      <Modified>2018-10-07T12:24:40.314</Modified>
+    <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-10-06T23:35:53.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -741,25 +741,21 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-06T22:54:34.299</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-10-06T23:35:53.793</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Braytech 2.xr.xml">
       <PackagePath>Braytech 2.xr.xml</PackagePath>
-      <Modified>2018-10-07T12:26:47.020</Modified>
+      <Modified>2018-10-07T20:31:25.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-07T19:41:11.473</Modified>
+      <Modified>2018-10-07T20:31:25.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-07T19:41:11.474</Modified>
+      <Modified>2018-10-07T20:31:25.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Views\Spider.xbf">
       <PackagePath>Views\Spider.xbf</PackagePath>
-      <Modified>2018-10-07T19:41:11.474</Modified>
+      <Modified>2018-10-07T20:31:25.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -768,11 +764,11 @@
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-07T12:26:47.578</Modified>
+      <Modified>2018-10-07T20:31:26.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Core\Braytech 2.exe">
       <PackagePath>Braytech 2.exe</PackagePath>
-      <Modified>2018-10-07T19:41:12.308</Modified>
+      <Modified>2018-10-07T20:31:26.906</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
