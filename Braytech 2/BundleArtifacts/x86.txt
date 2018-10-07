@@ -1,2 +1,0 @@
-MainPackage=G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Braytech 2_0.1.1.0_x86_Debug.appx
-SymbolPackage=G:\dev.braytech.org\html\universal\Braytech 2_0.1.1.0_Debug_Test\Braytech 2_0.1.1.0_x86_Debug.appxsym
