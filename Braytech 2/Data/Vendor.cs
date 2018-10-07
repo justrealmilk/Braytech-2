@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Braytech_2
+namespace Braytech_2.Data
 {
     public class VendorData
     {

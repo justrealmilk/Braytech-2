@@ -31,13 +31,13 @@
     <AppXManifest Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-07T00:32:21.231</Modified>
+      <Modified>2018-10-07T06:47:23.753</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Braytech 2.exe">
       <PackagePath>entrypoint\Braytech 2.exe</PackagePath>
-      <Modified>2018-10-07T00:32:20.977</Modified>
+      <Modified>2018-10-07T06:47:23.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\chapm\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -559,15 +559,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Braytech 2.xr.xml">
       <PackagePath>Braytech 2.xr.xml</PackagePath>
-      <Modified>2018-10-07T00:31:55.454</Modified>
+      <Modified>2018-10-07T06:47:23.419</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-10-07T00:32:20.847</Modified>
+      <Modified>2018-10-07T06:47:23.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-10-07T00:32:20.848</Modified>
+      <Modified>2018-10-07T06:47:23.430</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -576,11 +576,11 @@
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-10-07T00:31:57.375</Modified>
+      <Modified>2018-10-07T05:23:53.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Core\Braytech 2.exe">
       <PackagePath>Braytech 2.exe</PackagePath>
-      <Modified>2018-10-07T00:32:21.229</Modified>
+      <Modified>2018-10-07T06:47:23.751</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,3 +1,13 @@
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.g.i.cs
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.g.cs
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.g.i.cs
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.g.cs
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.xaml
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.xaml
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.xbf
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.xbf
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\XamlTypeInfo.g.cs
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\XamlSaveStateFile.xml
 G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\App.xbf
 G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\MainPage.xbf
 G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\Braytech 2.xr.xml
@@ -128,17 +138,6 @@ G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\System.Xml.ReaderWriter.dll
 G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\System.Xml.XDocument.dll
 G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\System.Xml.XmlDocument.dll
 G:\C#\Braytech 2\Braytech 2\bin\x86\Debug\System.Xml.XmlSerializer.dll
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\Braytech 2.csprojAssemblyReference.cache
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.g.i.cs
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.g.cs
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.g.i.cs
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.g.cs
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\XamlTypeInfo.g.cs
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.xaml
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.xaml
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\App.xbf
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MainPage.xbf
-G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\XamlSaveStateFile.xml
 G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\Braytech 2.csproj.CoreCompileInputs.cache
 G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\Braytech 2.csproj.CopyComplete
 G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\Braytech 2.exe
@@ -227,3 +226,4 @@ G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\qualifiers.txt
 G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\qualifiers.txt.intermediate
 G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\ProjectArchitectures.txt
+G:\C#\Braytech 2\Braytech 2\obj\x86\Debug\Braytech 2.csprojAssemblyReference.cache

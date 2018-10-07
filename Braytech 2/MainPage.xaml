@@ -5,10 +5,30 @@
     xmlns:local="using:Braytech_2"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:Braytech_2.Models"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource SystemControlAcrylicWindowBrush}">
 
     <Grid>
+        <GridView ItemsSource="{x:Bind ItemsList, Mode=OneWay}" SelectionMode="None" IsItemClickEnabled="False" IsSwipeEnabled="False" CanDragItems="False" HorizontalAlignment="Left" Margin="40" VerticalAlignment="Top">
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="data:Item">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Stretch" MinWidth="Infinity">
+                        <Grid>
+                            <Image Source="{x:Bind Icon}" Width="48" HorizontalAlignment="Left" />
+                            <Border BorderBrush="#b5b5b5" BorderThickness="2"></Border>
+                            <Border Background="#b5b5b5" HorizontalAlignment="Right" VerticalAlignment="Bottom" MinWidth="16" Padding="2,0,2,0">
+                                <TextBlock FontSize="12" Text="{x:Bind Quantity}" Foreground="#000000" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>                            
+                        </Grid>
+                        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Padding="10,0,10,0">
+                            <TextBlock FontSize="16" Text="{x:Bind Name}" />
+                            <TextBlock FontSize="12" Text="{x:Bind Cost}" />
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
 
     </Grid>
 </Page>

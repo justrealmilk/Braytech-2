@@ -14,6 +14,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Braytech_2.Models;
+using Braytech_2.Data;
+using System.Collections.ObjectModel;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -24,6 +27,10 @@ namespace Braytech_2
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+         ObservableCollection<Models.Item> ItemsList = new ObservableCollection<Models.Item>();
+
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -67,16 +74,46 @@ namespace Braytech_2
                 httpResponse.EnsureSuccessStatusCode();
                 httpResponseBody = await httpResponse.Content.ReadAsStringAsync();
 
-                VendorData response = JsonConvert.DeserializeObject<VendorData>(httpResponseBody);
-
-                var dialog = new MessageDialog(response.response.data[0].sales.Length.ToString());
-                await dialog.ShowAsync();
+                Render(httpResponseBody);
 
             }
             catch (Exception ex)
             {
                 httpResponseBody = "Error: " + ex.HResult.ToString("X") + " Message: " + ex.Message;
             }
+        }
+
+        private async void Render(string json)
+        {
+            VendorData request = JsonConvert.DeserializeObject<VendorData>(json);
+
+            //help plz
+            var materialIndexes = new int[2];
+
+            foreach (var category in request.response.data[0].categories)
+            {
+                if (category.displayCategoryIndex == 1)
+                {
+                    materialIndexes = category.itemIndexes;
+                }
+            }
+
+            foreach (var item in request.response.data[0].sales)
+            {
+
+                if (materialIndexes.Contains(item.vendorItemIndex))
+                {
+                    ItemsList.Add(new Models.Item {
+                        Name = item.item.displayProperties.name.Replace("Purchase ",""),
+                        Icon = $"https://www.bungie.net{ item.item.displayProperties.icon }",
+                        Quantity = item.quantity.ToString(),
+                        Cost = $"{ item.costs[0].quantity.ToString() } {item.costs[0].displayProperties.name}"
+                    });
+                }
+                               
+
+            }
+
         }
 
     }
